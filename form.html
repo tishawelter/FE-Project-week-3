@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Tisha's Garden - Contact Form</h2>
+
+<!--This is the navigation bar, this code sets it to the bottom of the page, there are three buttons one of each page-->
+
+<nav class="navbar fixed-bottom" style="background-color: rgb(241, 243, 115)">
+  <div class="container-fluid">
+      <a href="./index.html" button class="btn btn-outline-success me-2" type="button">Home Page</a>
+      <a href="./table.html" button class="btn btn-outline-success me-2" type="button">Plant List</a>
+      <a href="./form.html" button class="btn btn-outline-success me-2" type="button">Contact Me</a>
+  </div>
+</nav>
+
+<!-- This is a contact form, requesting first & last name, email and a short message, along with a submit button, 
+ the labels are set to float inside of the input fields -->
+<form>
+    <h3>Please complete the following information</h3>
+    <div class="form-floating mb-3">
+        <input type="first name" class="form-control" id="floatingInput" placeholder="first name">
+        <label for="floatingInput">First Name</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="last name" class="form-control" id="floatingInput" placeholder="last name">
+        <label for="floatingInput">Last Name</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="email">
+        <label for="floatingInput">Email</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="message" class="form-control" id="floatingInput" placeholder="message">
+        <label for="floatingInput">Your message</label>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Submit</button>
+
+</form>
+</body>
+</html>

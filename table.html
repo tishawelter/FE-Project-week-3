@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+<!--styling is set in the style.css file-->
+<h2>Tisha's Garden - My Plant List</h2>
+
+<!--This is the navigation bar, this code sets it to the bottom of the page, there are three buttons one of each page-->
+
+<nav class="navbar fixed-bottom" style="background-color: rgb(237, 238, 167)">
+  <div class="container-fluid">
+      <a href="./index.html" button class="btn btn-outline-success me-2" type="button">Home Page</a>
+      <a href="./table.html" button class="btn btn-outline-success me-2" type="button">Plant List</a>
+      <a href="./form.html" button class="btn btn-outline-success me-2" type="button">Contact Me</a>
+  </div>
+</nav>
+
+<!--Table has four columns, gave alternating rows a strip to allow for easier reading, set column width, 
+remaining table styling is set in the style.css file-->
+<table class="table table-striped table-hover" style="width: 80%;">
+  <thead>
+    <tr>
+      <th scope="col">Common Name</th>
+      <th scope="col">Color</th>
+      <th scope="col">Bloom Season</th>
+      <th scope="col">Habitat</th>
+    </tr>
+  </thead>
+  
+  <!--this is the information show in the table-->
+  <tbody>  
+      <tr>
+        <td>Tulip</td>
+        <td>Red</td>
+        <td>Spring</td>
+        <td>Sun and Shade</td>
+      </tr>
+
+      <tr>
+        <td>Rose</td>
+        <td>Yellow</td>
+        <td>Summer</td>
+        <td>Full Sun</td>
+      </tr>
+
+      <tr>
+        <td>Iris</td>
+        <td>Purple</td>
+        <td>Spring</td>
+        <td>Sun and Shade</td>
+      </tr>
+
+      <tr>
+        <td>Weeping Cherry Tree</td>
+        <td>Fushia Pink</td>
+        <td>Spring</td>
+        <td>Sun</td>
+      </tr>
+    </tbody>
+</table>
+</body>
+</html>
